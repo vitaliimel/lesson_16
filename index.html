@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <meta charset="UTF-8">
+   <link type="Image/x-icon" href="img/favicon/favicon.ico" rel="icon">
+   <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home work Lesson 16</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__title">Home Work #16</div>
+         </div>
+      </header>
+      <main class="page">
+         <div class="page__container">
+            <div class="page__first-form first-form">
+               <div class="first-form__title">Make an appointment</div>
+               <form class="first-form__form-body form-body" action="#">
+                  <div class="form-body__inputs">
+                     <div class="form-body__box-for-small-inputs">
+                        <div class="form-body__box-for-input">
+                           <input autocomplete="off" placeholder="Name" class="form-body__input" type="text"
+                              name="UserName">
+                        </div>
+                        <div class="form-body__box-for-input">
+                           <input autocomplete="off" placeholder="Email" class="form-body__input" type="email"
+                              name="UserEmail">
+                        </div>
+                        <div class="form-body__box-for-input">
+                           <input required autocomplete="off" placeholder="Phone Number" class="form-body__input"
+                              type="tel" name="UserPhone">
+                        </div>
+                        <div class="form-body__box-for-input">
+                           <input autocomplete="off" placeholder="Select Service" class="form-body__input" type="text"
+                              name="selectService">
+                        </div>
+                     </div>
+                     <div class="form-body__box-for-textarea">
+                        <textarea placeholder="Tell us about your puppers include his/her name"
+                           class="form-body__textarea" name="textarea"></textarea>
+                     </div>
+                  </div>
+                  <button type="submit" class="form-body__button-block button-block">Make an
+                     Appointment</button>
+               </form>
+            </div>
+            <div class="page__form-second second-form">
+               <form class="second-form__body" action="#">
+                  <div class="second-form__name">Summary</div>
+                  <div class="second-form__title">Estimate Shipping and Tax</div>
+                  <div class="second-form__subtitle">Enter your destination to get a shipping estimate.</div>
+                  <div class="second-form__select-country country-select">
+                     <div class="country-select__name name">Country</div>
+                     <select class="country-select select" name="country">
+                        <option class="select_item" value="1">Australia</option>
+                        <option class="select_item" value="2">Ukraine</option>
+                        <option class="select_item" value="3">Poland</option>
+                        <option class="select_item" value="4">Lietuva</option>
+                     </select>
+                  </div>
+                  <div class="second-form__line input input_first-margin">
+                     <label class="input__lebel name" for="state-province">State/Province</label>
+                     <input autocomplete="off" id="state-province" class="input__text" type="text"
+                        name="state-province">
+                  </div>
+                  <div class="second-form__line input input_second-margin">
+                     <label class="input__lebel name" for="zip-postal-code">Zip/Postal Code</label>
+                     <input autocomplete="off" id="zip-postal-code" class="input__text" type="text"
+                        name="zip-postal-code">
+                  </div>
+                  <div class="second-form__radio radio">
+                     <div class="radio__body radio__body_first-margin">
+                        <div class="radio__title name">Standard Rate</div>
+                        <input checked id="radio_01" class="radio__input" type="radio" name="standard-rate" value="">
+                        <label class="radio__text" for="radio_01">Price may vary depending on the item/destination.
+                           Shop
+                           Staff
+                           will contact you. $21.00</label>
+                     </div>
+                     <div class="radio__body radio__body_second-margin">
+                        <div class="radio__title name">Pickup from store</div>
+                        <input id="radio_02" class="radio__input" type="radio" name="standard-rate">
+                        <label class="radio__text" for="radio_02">1234 Street Adress City Address, 1234 $0.00</label>
+                     </div>
+                  </div>
+                  <div class="second-form__num num">
+                     <div class="num__body">
+                        <div class="num__title">Apply Discount Code</div>
+                        <label class="num__recommend-text" for="num__input">Enter discount code</label>
+                        <input id="num__input" maxlength="4" autocomplete="off" placeholder="Enter Discount code"
+                           class="num__input" type="text" name="apply-discount-code">
+                     </div>
+                  </div>
+                  <button type="submit" class="second-form__button button">Apply Discount</button>
+               </form>
+            </div>
+            <div class="page__form-block block-form">
+               <div class="block-form__body">
+                  <div class="block-form__third-form third-form">
+                     <form class="third-form">
+                        <div class="third-form__inputs">
+                           <div class="third-form__title">Registered Customers</div>
+                           <div class="third-form__subtitle">If you have an account, sign in with your email address.
+                           </div>
+                           <div class="third-form__input-box">
+                              <label class="third-form__input-lebel" for="email">Email </label>
+                              <input required placeholder="Your Name" id="email"
+                                 class="third-form__input third-form__input_margin" type="email" name="userEmail">
+                           </div>
+                           <div class="third-form__input-box">
+                              <label class="third-form__input-lebel" for="password">Password</label>
+                              <input maxlength="8" placeholder="Your Name" id="password" class="third-form__input"
+                                 type="password" name="userPassword">
+                           </div>
+                        </div>
+                        <div class="third-form__links">
+                           <button type="submit" class="third-form__link-sign-in">Sign In</button>
+                           <a class="third-form__link-forgot-your-password" href="#">Forgot Your Password?</a>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__title">Footer</div>
+         </div>
+      </footer>
+   </div>
+</body>
+
+</html>
